@@ -1,23 +1,20 @@
-Title: The Artchive
-Navigation menu: Home, About, Artchive, Sign In
+Title: The Bookhive
+Navigation menu: Home, About, Bookhive, Sign In
 
 Land
-Welcome section: "Welcome to The Artchive"
+Welcome section: "Welcome to The Bookhive"
 Body: intro text
 Footer: copyright + tagline
 
 Home
-Heading: "The Artchive"
+Heading: "The Bookhive"
 FEED
-Layout: gallery/grid of posts
-Individual entries
-Footer
+LIKE NETFLIX - BUT BOOK RECOS
+LIBRARY - TRACKER// TBR
 
 Profile
-Section for personal notes
-Section for TBR list (books, films, music)
-Layout: simple list, editable
-Footer
+PROFILE CUSTOMIZATION
+MUTUALS PROBABLY
 
 Sign IN
 HSign in/Log In
@@ -29,6 +26,6 @@ Footer
   2. Home layout
   3. Feed section
   4. Diary/TBR section
-  5. Artchive gallery
+  5. BOOKHIVE RECOS
   6. Sign-In form
   7. Footer

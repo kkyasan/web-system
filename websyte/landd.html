@@ -24,7 +24,7 @@
     <h2>Discover stories and learn through the wonders of books.<br>Be connected with like-minded individuals.</h2>
     <p>ANOTHER DESCRIPTION</p>
 
-    <form class="sign" action="sign.html" method="post">
+    <form class="sign" id="signForm">
       <input type="email" id="email" name="email" placeholder="Email address" required>
       <button type="submit">Get Started</button>
     </form>
@@ -41,6 +41,12 @@
     function toggleMenu() {
       document.getElementById("navbar").classList.toggle("active");
     }
+
+    document.getElementById("signForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      localStorage.setItem("userEmail", document.getElementById("email").value);
+      window.location.href = "home.html";
+    });
   </script>
 </body>
 </html>

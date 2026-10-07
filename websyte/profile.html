@@ -21,14 +21,15 @@
 
   <div class="profile">
     <img src="avatar.jpg" alt="User Profile">
-    <h2>@username</h2>
+    <h2 id="username">@username</h2>
     <div class="profile-info">
-      <p>dindkad</p>
+    <p id="useremail"></p>
     </div>
   </div>
 
   <div class="sections">
-    <h3>FAVORITES</h3>
+    <h3>TO BE READ</h3>
+    <button class="add-btn">+ Add a book</button>
     <div class="scroll">
       <div class="card">Book 1</div>
       <div class="card">Book 2</div>
@@ -39,7 +40,7 @@
   </div>
 
   <div class="sections">
-    <h3>Recent Activity</h3>
+    <h3>MY REVIEWS</h3>
     <div class="scroll">
       <div class="card">Book 1</div>
       <div class="card">Book 2</div>
@@ -57,9 +58,15 @@
   </div>
 
   <script>
-    function toggleMenu() {
-      document.getElementById("navbar").classList.toggle("active");
-    }
-  </script>
+  function toggleMenu() {
+    document.getElementById("navbar").classList.toggle("active");
+  }
+
+  const email = localStorage.getItem("userEmail");
+  if (email) {
+    document.getElementById("useremail").textContent = email;
+    document.getElementById("username").textContent = "@" + email.split("@")[0];
+  }
+</script>
 </body>
 </html>

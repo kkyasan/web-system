@@ -210,3 +210,26 @@ body.profile-page {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.add-btn {
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: darkred;
+}

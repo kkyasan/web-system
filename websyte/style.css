@@ -233,3 +233,16 @@ body.profile-page {
 .add-btn:hover {
   background-color: darkred;
 }
+
+/* NEW: book cover + title */
+.book {
+  flex: 0 0 auto;
+  width: 180px;
+}
+
+.book-title {
+  margin: 8px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}

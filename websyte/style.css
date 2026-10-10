@@ -3,12 +3,29 @@ html, body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  background: linear-gradient(135deg,#000000 0%,#4b0082 25%,#e4d26c 50%, #4b0082 75%,#000000 100%);
-  background-size: cover;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(75, 0, 130, 0.45), transparent 50%),
+    radial-gradient(circle at 85% 80%, rgba(228, 210, 108, 0.18), transparent 45%),
+    linear-gradient(180deg, #050505 0%, #120d1c 100%);
   background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.03) 0px,
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 0;
 }
 
 .header {
@@ -40,22 +57,35 @@ html, body {
 #navbar {
   display: none;
   flex-direction: column;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.92);
+  border: 1px solid #e4d26c;
+  border-radius: 10px;
   position: absolute;
-  top: 60px;
+  top: 65px;
   right: 20px;
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 100;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 #navbar a {
-  padding: 10px;
+  padding: 14px 20px;
   text-decoration: none;
-  color: blue;
+  color: #fff;
   display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #navbar a:hover {
-  text-decoration: underline;
+  background: #e4d26c;
+  color: #000;
+  text-decoration: none;
 }
 
 #navbar.active {
@@ -158,7 +188,6 @@ html, body {
 body.profile-page {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #111;
   color: #fff;
 }
 
@@ -234,10 +263,16 @@ body.profile-page {
   background-color: darkred;
 }
 
-/* NEW: book cover + title */
+a.add-btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .book {
   flex: 0 0 auto;
   width: 180px;
+  display: flex;
+  flex-direction: column;
 }
 
 .book-title {
@@ -245,4 +280,57 @@ body.profile-page {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+}
+
+.book .add-btn {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.cover-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.cover-row img {
+  width: 120px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.stars {
+  margin: 4px 0 0;
+  text-align: center;
+  color: #e4d26c;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.library {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.library:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .library {
+    position: static;
+    display: block;
+    margin-top: 10px;
+  }
 }

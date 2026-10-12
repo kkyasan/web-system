@@ -23,8 +23,8 @@
 
     <div class="cover-row">
       <img src="books/pb3.jpg" alt="The Maze Runner">
-      <img src="books/pb1.jpg" alt="Sunrise on the Reaping">
       <img src="books/rb9.jpg" alt="Snowpiercer">
+      <img src="books/pb1.jpg" alt="Sunrise on the Reaping">
     </div>
   </div>
 
@@ -36,10 +36,6 @@
   </div>
 
   <script>
-    function toggleMenu() {
-      document.getElementById("navbar").classList.toggle("active");
-    }
-
     document.getElementById("signForm").addEventListener("submit", function (e) {
       e.preventDefault();
       localStorage.setItem("userEmail", document.getElementById("email").value);

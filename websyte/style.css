@@ -327,10 +327,109 @@ a.add-btn {
   text-decoration: underline;
 }
 
+   .about {
+     align-items: center;
+   }
+
+   .about h2 {
+     font-size: 36px;
+   }
+
+   .about h3 {
+     font-family: 'Playfair Display', serif;
+     color: #e4d26c;
+     font-size: 24px;
+     margin: 25px 0 5px;
+   }
+
+   .about p {
+     max-width: 650px;
+     font-size: 18px;
+     line-height: 1.6;
+     margin-bottom: 10px;
+   }
+
 @media (max-width: 700px) {
   .library {
     position: static;
     display: block;
     margin-top: 10px;
+  }  
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .menu-btn {
+    top: 15px;
+    right: 15px;
+  }
+
+  #navbar {
+    top: 55px;
+    right: 15px;
+  }
+
+  .body {
+    padding: 40px 15px;
+  }
+
+  .body h2 {
+    font-size: 24px;
+  }
+
+  .body p {
+    font-size: 16px;
+  }
+
+  .sign {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sign input {
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+  }
+
+  .sign button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .cover-row img {
+    width: 90px;
+    height: 130px;
+  }
+
+  .feed,
+  .sections {
+    padding: 15px;
+  }
+
+  .feed h3,
+  .sections h3 {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 140px;
+    height: 205px;
+  }
+
+  .book {
+    width: 140px;
+  }
+
+  .about p {
+    font-size: 16px;
   }
 }

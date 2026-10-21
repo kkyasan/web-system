@@ -20,8 +20,10 @@
 
     <form class="sign" id="signForm">
       <input type="email" id="email" name="email" placeholder="Email address" required>
+      <input type="password" id="password" name="password" placeholder="Password" minlength="6" required>
       <button type="submit">START LIBRARY</button>
     </form>
+    <p class="log">Already have an account? <a href="login.html">Log in</a></p>
 
     <div class="cover-row">
       <img src="books/pb3.jpg" alt="The Maze Runner">
@@ -36,7 +38,7 @@
       Explore dystopian worlds.</p>
     </footer>
   </div>
-
+  
   <script>
     document.getElementById("signForm").addEventListener("submit", function (e) {
       e.preventDefault();

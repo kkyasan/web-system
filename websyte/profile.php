@@ -22,6 +22,7 @@ require_login();
       <a href="home.php" onclick="toggleMenu()">Home</a>
       <a href="profile.php" onclick="toggleMenu()">Library</a>
       <a href="about.php" onclick="toggleMenu()">About</a>
+      <a href="logout.php">Logout</a>
     </nav>
   </div>
 

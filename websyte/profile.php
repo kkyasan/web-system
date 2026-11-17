@@ -35,7 +35,7 @@ require_login();
 
   <div class="sections">
     <h3>TO BE READ</h3>
-    <a class="add-btn" href="home.html">+ Add a book</a>
+    <a class="add-btn" href="home.php">+ Add a book</a>
     <div class="scroll">
       <div class="book">
       <div class="card"><img src="books/pb3.jpg" alt="The Maze Runner"></div>
@@ -56,7 +56,7 @@ require_login();
 
   <div class="sections">
     <h3>MY REVIEWS</h3>
-    <a class="add-btn" href="home.html">+ Add a book</a>
+    <a class="add-btn" href="home.php">+ Add a book</a>
     <div class="scroll">
       <div class="book">
       <div class="card"><img src="books/rb1.jpg" alt="Vox"></div>

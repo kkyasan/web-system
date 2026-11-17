@@ -16,13 +16,13 @@ require_login();
   <div class="header">  
     <h1><strong>THE BOOKHIVE</strong></h1>
     <img class="logo" src="logo.svg" alt="The Bookhive logo">
-    <a class="library" href="profile.html">Go to Library →</a>
+    <a class="library" href="profile.php ">Go to Library →</a>
     <button class="menu-btn" onclick="toggleMenu()">☰</button>
     <nav id="navbar">
-      <a href="landd.html" onclick="toggleMenu()">Bookhive</a>
-      <a href="home.html" onclick="toggleMenu()">Home</a>
-      <a href="profile.html" onclick="toggleMenu()">Library</a>
-      <a href="about.html" onclick="toggleMenu()">About</a>
+      <a href="landd.php" onclick="toggleMenu()">Bookhive</a>
+      <a href="home.php" onclick="toggleMenu()">Home</a>
+      <a href="profile.php" onclick="toggleMenu()">Library</a>
+      <a href="about.php" onclick="toggleMenu()">About</a>
     </nav>
   </div>
 
@@ -32,52 +32,52 @@ require_login();
       <div class="book">
         <div class="card"><img src="books/rb1.jpg" alt="Vox"></div>
         <p class="book-title">Vox by Christina Dalcher</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb2.jpg" alt="The Giver"></div>
         <p class="book-title">The Giver by Lois Lowry</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb3.jpg" alt="1984"></div>
         <p class="book-title">1984 by George Orwell</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb4.jpg" alt="To Kill a Mockingbird"></div>
         <p class="book-title">To Kill a Mockingbird by Harper Lee</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb5.jpg" alt="Pride and Prejudice"></div>
         <p class="book-title">Pride and Prejudice by Jane Austen</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb6.jpg" alt="1984"></div>
         <p class="book-title">1984 by George Orwell</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb7.jpg" alt="The Road"></div>
         <p class="book-title">The Road by Cormac McCarthy</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb8.jpg" alt="The Knife of Never Letting Go"></div>
         <p class="book-title">The Knife of Never Letting Go by Patrick Ness</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb9.jpg" alt="Snowpiercer"></div>
         <p class="book-title">Snowpiercer by Lob et al.</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/rb10.jpg" alt="We"></div>
         <p class="book-title">We by Yevgeny Zamyatin</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
     </div>
 
@@ -86,52 +86,52 @@ require_login();
       <div class="book">
          <div class="card"><img src="books/nb1.jpg" alt="Not With a Bang"></div>
         <p class="book-title">Not With a Bang by Temi Oh</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb2.jpg" alt="A Wall Is Also a Road"></div>
         <p class="book-title">A Wall Is Also a Road by AnnaLee Newitz</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb3.jpg" alt="Ava"></div>
         <p class="book-title">Ava by Victoria Dillon</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb4.jpg" alt="Scion"></div>
         <p class="book-title">Scion by James Islington</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb5.jpg" alt="Life Out of Order"></div>
         <p class="book-title">Life Out of Order by Audrey Niffenegger</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb6.jpg" alt="Tender is the Flesh"></div>
         <p class="book-title">Tender is the Flesh by Agustina Bazterrica</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb7.jpg" alt="Now We Are Animals"></div>
         <p class="book-title">Now We Are Animals by RP Nathan</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb8.jpg" alt="Seek the Traitor’s Son"></div>
         <p class="book-title">Seek the Traitor’s Son by Veronica Roth</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb9.jpg" alt="Exit Party"></div>
         <p class="book-title">Exit Party by Emily St. John Mandel</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/nb10.jpg" alt="The Smithtown Project"></div>
         <p class="book-title">The Smithtown Project by Scott Wittenburg</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
     </div>
 
@@ -140,52 +140,52 @@ require_login();
       <div class="book">
         <div class="card"><img src="books/pb1.jpg" alt="Sunrise on The Reaping"></div>
         <p class="book-title">Sunrise on The Reaping by Suzanne Collins</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb2.jpg" alt="Station Eleven"></div>
         <p class="book-title">Station Eleven by Emily St. John Mandel</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb3.jpg" alt="The Maze Runner"></div>
         <p class="book-title">The Maze Runner by James Dashner</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb4.jpg" alt="The Handmaid’s Tale"></div>
         <p class="book-title">The Handmaid’s Tale by Margaret Atwood</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb5.jpg" alt="The Hunger Games"></div>
         <p class="book-title">The Hunger Games by Suzanne Collins</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb6.jpg" alt="Scythe"></div>
         <p class="book-title">Scythe by Neil Shusterman</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb7.jpg" alt="Parable of the Sower"></div>
         <p class="book-title">Parable of the Sower by Octavia Butler</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb8.jpg" alt="Divergent"></div>
         <p class="book-title">Divergent by Veronica Roth</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb9.jpg" alt="Battle Royale"></div>
         <p class="book-title">Battle Royale by Koushun Takami</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
       <div class="book">
         <div class="card"><img src="books/pb10.webp" alt="The Trial"></div>
         <p class="book-title">The Trial by Franz Kafka</p>
-        <a class="add-btn" href="profile.html">+ TBR</a>
+        <a class="add-btn" href="profile.php">+ TBR</a>
       </div>
     </div>
   </div>

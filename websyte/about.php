@@ -38,7 +38,7 @@ require 'config.php';
 
     <h3>Get started</h3>
     <p>Ready to find your next read? Head to the collection and add your first book.</p>
-    <a class="add-btn" href="home.html">Browse the books</a>
+    <a class="add-btn" href="home.php">Browse the books</a>
   </div>
 
   <div class="footer">

@@ -1,3 +1,7 @@
+<?php
+require 'config.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,13 +16,13 @@
   <div class="header">  
     <h1><strong>THE BOOKHIVE</strong></h1>
     <img class="logo" src="logo.svg" alt="The Bookhive logo">
-    <a class="library" href="profile.html">Go to Library →</a>
+    <a class="library" href="profile.php">Go to Library →</a>
     <button class="menu-btn" onclick="toggleMenu()">☰</button>
     <nav id="navbar">
-      <a href="landd.html" onclick="toggleMenu()">Bookhive</a>
-      <a href="home.html" onclick="toggleMenu()">Home</a>
-      <a href="profile.html" onclick="toggleMenu()">Library</a>
-      <a href="about.html" onclick="toggleMenu()">About</a>
+      <a href="landd.php" onclick="toggleMenu()">Bookhive</a>
+      <a href="home.php" onclick="toggleMenu()">Home</a>
+      <a href="profile.php" onclick="toggleMenu()">Library</a>
+      <a href="about.php" onclick="toggleMenu()">About</a>
     </nav>
   </div>
 
